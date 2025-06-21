@@ -1,0 +1,105 @@
+.core-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 80px 60px;
+  background: #ffffff;
+  align-items: center;
+  gap: 40px;
+}
+
+.left-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 25px;
+  position: relative;
+}
+
+.feature-card {
+  background-color: #ffffff;
+  border-radius: 20px;
+  padding: 40px 30px;
+  box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.05);
+  text-align: left;
+  font-family: 'Segoe UI', sans-serif;
+  height: 180px; /* Same height for all cards */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.left-grid .feature-card:nth-child(2) {
+  margin-top: 40px;
+}
+
+.left-grid .feature-card:nth-child(4) {
+  margin-top: 40px;
+}
+
+.feature-card h2 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.feature-card p {
+  font-size: 16px;
+  color: #4a5568;
+  line-height: 24px;
+}
+
+.orange h2 {
+  color: #f59e0b;
+}
+
+.red h2 {
+  color: #f97316;
+}
+
+.pink h2 {
+  color: #ec4899;
+}
+
+.purple h2 {
+  color: #a855f7;
+}
+
+.right-content {
+  max-width: 550px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.sub-title {
+  color: #f59e0b;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+  display: inline-block;
+}
+
+.right-content h1 {
+  font-size: 34px;
+  color: #1e293b;
+  font-weight: 700;
+  margin-bottom: 20px;
+  line-height: 44px;
+}
+
+.right-content p {
+  font-size: 16px;
+  color: #475569;
+  line-height: 26px;
+  margin-bottom: 30px;
+}
+
+.explore-btn {
+  padding: 12px 24px;
+  font-size: 14px;
+  color: #1e293b;
+  background-color: #fef3c7;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+}

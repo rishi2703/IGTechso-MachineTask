@@ -1,0 +1,114 @@
+.pricing-container {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.pricing-subtitle {
+  color: orange;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.pricing-title {
+  font-size: 26px;
+  font-weight: bold;
+  margin: 10px 0 30px;
+}
+
+.toggle-buttons {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.toggle-buttons button {
+  padding: 10px 20px;
+  border: 1px solid #ccc;
+  background: white;
+  margin: 0 5px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.toggle-buttons .active {
+  background-color: #0f172a;
+  color: white;
+}
+
+.pricing-cards {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: white;
+  padding: 30px;
+  border: 1px solid #eee;
+  border-radius: 10px;
+  width: 300px;
+  text-align: left;
+  position: relative;
+}
+
+
+
+.badge {
+  position: absolute;
+  top: 10px;
+  left: 20px;
+  background: orange;
+  color: white;
+  padding: 3px 10px;
+  font-size: 12px;
+  border-radius: 5px;
+}
+
+.card h3 {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.card p {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.card ul {
+  margin: 20px 0;
+  list-style: none;
+  padding: 0;
+}
+
+.card ul li {
+  font-size: 13px;
+  margin: 6px 0;
+}
+
+.price {
+  color: #10b981;
+  font-weight: 700;
+  font-size: 22px;
+}
+
+.btn {
+  width: 100%;
+  padding: 10px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-outline {
+  background: #fef3c7;
+  color: #b45309;
+}
+
+.btn-filled {
+  background: #fef3c7;
+  color: #b45309;
+}
+
+    
